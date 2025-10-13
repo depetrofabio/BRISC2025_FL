@@ -1,0 +1,1 @@
+## funzioni di allenamento con fedavg
