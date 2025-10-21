@@ -1,0 +1,21 @@
+{
+    "name": "Data Science Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.formatting.provider": "black"
+    },
+    "postCreateCommand": "python -m pip install --upgrade pip"
+}

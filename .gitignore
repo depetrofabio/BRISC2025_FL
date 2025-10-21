@@ -1,0 +1,40 @@
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+.env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Data artifacts
+data/**
+!data/README.md
+!data/**/.gitkeep
+
+# Checkpoints, logs, weights
+checkpoints/
+*.pth
+*.pt
+wandb/
+logs/
+
+# Notebooks outputs (optional)
+**/*.ipynb_checkpoints/
+
