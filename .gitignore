@@ -24,7 +24,8 @@ Thumbs.db
 .idea/
 
 # Data artifacts
-data/**
+data/classification_task
+data/segmentation_task
 !data/README.md
 !data/**/.gitkeep
 
